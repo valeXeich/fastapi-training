@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Cosmos Collection Altay Resort",
+        "location": "Republic of Altai, Maiminsky district, Urlu-Aspak village, Leskhoznaya street, 20",
+        "services": ["Wi-Fi", "Pool", "Parking", "Air conditioner"],
+        "rooms_quantity": 15
+    },
+    {
+        "name": "Skala",
+        "location": "Republic of Altai, Maiminsky district, Barangol village, Chuiskaya street 40a",
+        "services": ["Wi-Fi", "Parking"],
+        "rooms_quantity": 23
+    },
+    {
+        "name": "Aru-Kol",
+        "location": "Republic of Altai, Turochaksky district, Artybash village, Teletskaya street, 44A",
+        "services": ["Parking"],
+        "rooms_quantity": 30
+    },
+    {
+        "name": "Hotel Syktyvkar",
+        "location": "Republic of Komi, Syktyvkar, Communist street, 67",
+        "services": ["Wi-Fi", "Parking", "Gym"],
+        "rooms_quantity": 55
+    },
+    {
+        "name": "Palace",
+        "location": "Republic of Komi, Syktyvkar, Pervomayskaya street, 62",
+        "services": ["Wi-Fi", "Parking", "Air conditioner"],
+        "rooms_quantity": 22
+    },
+    {
+        "name": "Bridge Resort",
+        "location": "urban-type settlement Sirius, Figurnaya street, 45",
+        "services": ["Wi-Fi", "Parking", "Air conditioner", "Gym"],
+        "rooms_quantity": 45
+    },
+    {
+        "name": "Mini Hotel",
+        "location": "urban-type settlement Izhora, Moskovskaya street, 13",
+        "services": ["Wi-Fi", "Parking", "Air conditioner"],
+        "rooms_quantity": 2
+    }
+]

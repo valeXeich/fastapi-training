@@ -1,0 +1,69 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: fastapi_app
+    build:
+      context: .
+    env_file:
+      - .env-non-dev
+    ports:
+      - 7777:8000
+    depends_on:
+      - db
+      - cache
+    command: ["/booking/docker/app.sh"]
+  db:
+    container_name: 'db'
+    image: postgres:latest
+    restart: always
+    env_file:
+      - .env-non-dev
+    ports:
+      - 5432:5432
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: 'pgadmin4'
+    restart: always
+    ports:
+      - "5050:80"
+    env_file:
+      - .env-non-dev
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+
+  cache:
+    image: redis:7
+    container_name: 'redis-cache'
+    ports:
+      - 6379:6379
+    volumes:
+      - cache:/data
+  
+  celery:
+    build:
+      context: .
+    container_name: celery
+    depends_on:
+      - cache
+    command: ["/booking/docker/celery.sh", "celery"]
+    env_file:
+      - .env-non-dev
+  
+  flower:
+    build:
+      context: .
+    container_name: flower
+    depends_on:
+      - cache
+    command: ["/booking/docker/celery.sh", "flower"]
+    env_file:
+      - .env-non-dev
+
+volumes:
+  pgdata:
+  pgadmin-data:
+  cache:

@@ -1,0 +1,111 @@
+[
+    {
+        "hotel_id": 1,
+        "name": "Superior with terrace and lake view",
+        "description": "Incredible beauty room.",
+        "price": 24500,
+        "services": ["Free Wi‑Fi", "Air conditioning (with climate control)"],
+        "quantity": 5
+    },
+    {
+        "hotel_id": 1,
+        "name": "Deluxe Plus",
+        "description": "The best hotel room.",
+        "price": 22450,
+        "services": ["Free Wi‑Fi", "Air conditioning"],
+        "quantity": 10
+    },
+    {
+        "hotel_id": 2,
+        "name": "Room for 2 persons",
+        "description": "Indescribable beauty.",
+        "price": 4570,
+        "services": ["Free Wi‑Fi", "TV"],
+        "quantity": 15
+    },
+    {
+        "hotel_id": 2,
+        "name": "Room for 3 persons",
+        "description": "test",
+        "price": 4350,
+        "services": ["TV", "Fridge"],
+        "quantity": 8
+    },
+    {
+        "hotel_id": 3,
+        "name": "Family Junior Suite with 1 double bed",
+        "description": "test",
+        "price": 7080,
+        "services": ["Fridge"],
+        "quantity": 20
+    },
+    {
+        "hotel_id": 3,
+        "name": "2-room suite comfort",
+        "description": "test",
+        "price": 9815,
+        "services": ["Jacuzzi", "home theater"],
+        "quantity": 10
+    },
+    {
+        "hotel_id": 4,
+        "name": "Standard double",
+        "description": "test",
+        "price": 4300,
+        "services": ["Free WiFi", "home theater"],
+        "quantity": 20
+    },
+    {
+        "hotel_id": 4,
+        "name": "Standard Superior PLUS",
+        "description": "test",
+        "price": 4700,
+        "services": [
+            "Free Wi‑Fi",
+            "home theater",
+            "Bathroom",
+            "Air conditioner"
+        ],
+        "quantity": 35
+    },
+    {
+        "hotel_id": 5,
+        "name": "Standard room with 2 single beds (with breakfast)",
+        "description": "test",
+        "price": 5000,
+        "services": ["Air conditioner", "Mini bar"],
+        "quantity": 15
+    },
+    {
+        "hotel_id": 5,
+        "name": "Premium Junior Suite (with breakfast)",
+        "description": "test",
+        "price": 8000,
+        "services": ["Jacuzzi", "Air conditioner"],
+        "quantity": 7
+    },
+    {
+        "hotel_id": 6,
+        "name": "Standard (standard building)",
+        "description": "test",
+        "price": 8125,
+        "services": ["home theater", "TV"],
+        "quantity": 45
+    },
+    {
+        "hotel_id": 7,
+        "name": "Royal Suite",
+        "description": "test",
+        "price": 10000,
+        "services": ["home theater", "TV"],
+        "quantity": 1
+    },
+    {
+        "hotel_id": 7,
+        "name": "Royal Suite",
+        "description": "test",
+        "price": 20000,
+        "services": ["home theater", "TV", "Jacuzzi"],
+        "quantity": 1
+    }
+]
